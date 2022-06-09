@@ -1,14 +1,13 @@
-import React, { Fragment } from "react";
+import React from "react";
+
+import Header from "/components/layout/Header";
 
 import styles from "./home-page.module.css";
 
 const HomePage = () => {
   return (
     <div className={styles["home-page"]}>
-      <div className={styles.title}>
-        <h1>Etxarri</h1>
-        <h1 style={{ color: "#eeeeee" }}>Fitness</h1>
-      </div>
+      <Header />
       <div className={styles["body"]}>
         <h2 className={styles.subtitle}>La mejor academia para opositores</h2>
       </div>

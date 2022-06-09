@@ -1,18 +1,6 @@
-.title{
-    /* border: 1px solid rgba(255, 255, 255, 0.18); */
-    backdrop-filter: blur(10px);
-    background-color: rgba(16, 18, 27, 0.6);
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    padding: 1rem;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
 .body{
     background-image: url("../../../assets/fitness.jpg");
-    background-position: center center;
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
