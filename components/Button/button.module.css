@@ -1,0 +1,13 @@
+.button{
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.button:active{
+    transform: scale(0.95);
+    transition: transform 0.2s ease-in-out;
+    
+}

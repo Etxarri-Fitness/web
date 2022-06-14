@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 
+import styles from "./button.module.css";
+
 interface Props {
   children: React.ReactNode;
   href: string;
@@ -8,11 +10,9 @@ interface Props {
 
 const Button: React.FC<Props> = ({ children, href }) => {
   return (
-    <div>
-      <Link href={href}>
-        <a>{children}</a>
-      </Link>
-    </div>
+    <Link href={href}>
+      <a className={styles.button}>{children}</a>
+    </Link>
   );
 };
 
