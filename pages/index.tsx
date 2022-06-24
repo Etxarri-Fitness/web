@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
 import { Fragment } from "react";
 
-import HomePage from "/components/layout/HomePage";
-import Pricing from "/components/layout/Pricing";
-import AboutMe from "/components/layout/AboutMe";
+import HomePage from "components/layout/HomePage";
+import Pricing from "components/layout/Pricing";
+import AboutMe from "components/layout/AboutMe";
 
 const Home: NextPage = () => {
   return (
