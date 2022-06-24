@@ -1,0 +1,47 @@
+.more-about-me{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    min-height: 100vh;
+    background-image: linear-gradient(
+        45deg,
+        hsl(0deg 0% 93%) 1%,
+        hsl(219deg 2% 86%) 40%,
+        hsl(218deg 3% 78%) 48%,
+        hsl(218deg 3% 70%) 51%,
+        hsl(218deg 3% 63%) 51%,
+        hsl(218deg 4% 56%) 50%,
+        hsl(218deg 4% 49%) 50%,
+        hsl(218deg 5% 42%) 49%,
+        hsl(218deg 7% 35%) 49%,
+        hsl(217deg 9% 29%) 52%,
+        hsl(217deg 12% 22%) 60%,
+        hsl(216deg 18% 16%) 99%
+      );
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
+    gap: 2rem;
+    background: rgba(16, 18, 27, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(14px);
+    border-radius: 2px;
+}
+
+.text-light{
+    color:#eee;
+}
+
+.text-dark{
+    color:#222831;
+}
