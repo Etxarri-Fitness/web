@@ -1,19 +1,23 @@
-.body{
-    background-image: url("../../../assets/fitness.jpg");
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    justify-content: center;
+.body {
+  background-image: url("../../../assets/fitness.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
 }
 
-.home-page{
-    display: flex;
-    height: 100vh;
-    padding-top: 92px;
-    
+.home-page {
+  display: flex;
+  height: 100vh;
+  padding-top: 92px;
 }
 
+@media only screen and (min-width: 700px) {
+  .subtitle {
+    font-size: 4rem;
+  }
+}
