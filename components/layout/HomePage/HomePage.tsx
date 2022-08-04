@@ -9,7 +9,9 @@ const HomePage = () => {
     <div className={styles["home-page"]}>
       <Header />
       <div className={styles["body"]}>
-        <h2 className={styles.subtitle}>La mejor academia para opositores</h2>
+        <div className={styles["title-container"]}>
+          <h2 className={styles.subtitle}>La mejor academia para opositores</h2>
+        </div>
       </div>
     </div>
   );

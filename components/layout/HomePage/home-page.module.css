@@ -16,8 +16,34 @@
   padding-top: 92px;
 }
 
+.title-container {
+  display: none;
+  min-width: 35%;
+  align-self: flex-end;
+  margin-right: 3rem;
+  border-radius: 6px;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
 @media only screen and (min-width: 700px) {
   .subtitle {
-    font-size: 4rem;
+    font-size: 6rem;
+  }
+
+  .title-container {
+    width: 500px;
+    align-self: flex-end;
+    margin-right: 3rem;
+    border-radius: 6px;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(16, 18, 27, 0.6);
   }
 }
